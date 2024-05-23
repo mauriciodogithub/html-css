@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo de Hover</title>
+    <style>
+      body {
+        font-family: Poppins;
+      }
+
+      div > a {
+        display: none;
+      }
+
+      div:hover > a {
+        display: block;
+        color: #fff;
+        background-color: red;
+        width: 250px;
+      }
+
+      div:hover {
+        color: chocolate;
+      }
+      div {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+      passe o mouse aqui
+      <a href="https://web.whatsapp.com/" target="_blank"> clique aqui fdp </a>
+    </div>
+    <p>Fim do Exemplo</p>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: friends;
+            /* Medidas absolutas: cm, mm, in, px, pt, pc
+              Medidas Relativas: em, ex, rem, vw, vh, %
+              16px geralmente = 1em */
+            font-size: 1em;
+            font-weight: lighter;
+            /* lighter normal bold bolder, 100 - 900 */
+        }
+
+        h1 {
+            /* font-family: friends;
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic; */
+
+            /* shorthand font 
+            font-style -> font-weight -> font-size -> font-family */
+            font: italic bold 3em friends;
+        }
+        h2 {
+            font: bold 2em friends;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Trabalhando com fontes
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos libero accusamus enim, nesciunt quo autem blanditiis temporibus tempora maiores. Ullam laboriosam veniam repellat vero omnis quaerat quam animi! Inventore.
+    </p>
+    <h2>
+        Subtítulo do exercício
+    </h2>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis non repudiandae maxime iure explicabo reprehenderit hic debitis eum minima cum, doloremque esse dicta asperiores veniam deserunt quae veritatis? Placeat, nemo?
+    </p>
+</body>
+</html>
